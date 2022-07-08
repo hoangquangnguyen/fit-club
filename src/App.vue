@@ -1,9 +1,10 @@
 <template>
   <nav>
+    <div class="text-4xl text-blue-700 font-bold">Hell oooo</div>
     <router-link to="/">Home</router-link> |
     <router-link to="/about">About</router-link>
   </nav>
-  <router-view/>
+  <router-view />
 </template>
 
 <style>

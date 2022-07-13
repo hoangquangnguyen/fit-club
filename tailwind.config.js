@@ -2,7 +2,8 @@
 module.exports = {
   content: ["./public/index.html","./src/**/*.{html,ts,vue}"],
   theme: {
-    extend: {},
+    extend: {    
+    },
   },
   plugins: [],
 }

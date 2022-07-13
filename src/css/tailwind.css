@@ -1,3 +1,9 @@
 @tailwind base;
 @tailwind utilities;
 @tailwind components;
+
+@layer base{
+    body{
+        @apply bg-[url('/src/assets/image/noise.png')] bg-[#4a4c50] bg-contain bg-repeat
+    }
+}
